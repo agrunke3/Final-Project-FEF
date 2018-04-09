@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .header-container{
+      color: rgb(8, 238, 111);
+      background: rgb(4, 0, 255);
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+
+  }
+  .header{
+      border: .1px solid black;
+      width: 950px;
+      height: 200px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  }
+  .name{
+      font-size: 40px;
+      font-family: "Lucida Console", Monaco, monospace;
+  }
+  .jobTitle{
+      font-size: 15px;
+      font-family: "Lucida Console", Monaco, monospace;
+  }
+  .container{
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+    flex:1;
+}
+.item{
+    border: 1px solid rgb(170, 18, 18);
+    padding: 50px;
+    display: flex;
+    flex: 1;
+    justify-content: space-around
+}
+.col-md-3{
+    justify-content: flex-start;
+    padding: 20px;
+    display: initial;
+
+}
+.gitList{
+    justify-content: center;
+    border: 0.1px solid rgb(38, 98, 211);
+    height: 400px;
+    width: 100px;
+}
+
+
+#linkedInIcon {
+    font-size: 10px;
+}
+
+#facebookIcon {
+    font-size: 10px;
+}
+
+#gitHubIcon {
+    font-size: 10px;
+}
+
+.padli{
+    padding-top: 4em;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(12, 170, 118)
+
+}
